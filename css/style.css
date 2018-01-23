@@ -1,0 +1,85 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#header {
+	background: url(../images/pic1.jpg);
+	width: 100%;
+	min-height: 550px;
+	background-size: cover;
+}
+
+.nav li {
+	list-style: none;
+	float: right;
+	display: inline;
+	margin-top: 1em;
+}
+
+.nav a {
+	color: #fff;
+	padding: 10px 20px 0 20px;
+	text-decoration: none;
+}
+.intro  p{
+	text-align: center;
+	font-size: 0.85em;
+	margin-top: 3em;
+}
+
+.find  a {
+	color: #000;
+	float: right;
+	text-decoration: none;
+}
+
+#body {
+	width: 90%;
+	margin: auto;
+}
+
+
+#boxes {
+	align-content: center;
+	margin-top: 5em;
+	border-top: solid 1px grey;
+	padding: 10px;
+}
+
+.box {
+	width: 30%;
+	float: left;
+}
+.creative, .urban {
+	border-right: solid 1px #000;
+}
+#creative {
+	color: orange;
+}
+#urban {
+	color: blue;
+}#worship {
+	color: green;
+}
+
+.boxText {
+	overflow: auto;
+	height: 300px;
+	font-size: 0.9em;
+	padding: 0 10px 10px 10px;
+}
+
+.boxFooter {
+	min-height: 20px;
+	background: grey;
+}
+
+.boxFooter a{
+	color: #000;
+	text-decoration: none;
+	float: right;
+	font-size: 0.9em;
+}
+
+
